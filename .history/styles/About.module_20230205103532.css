@@ -1,0 +1,51 @@
+.mainABOUT {
+    background-color: #14343d;
+  }
+  
+  .About {
+    display: flex;
+    justify-content: center;
+    padding-top: 5%;
+    font-size: 30px;
+  }
+  
+  .infodiv {
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+  }
+  
+  .info p {
+    padding-top: 3%;
+    padding-bottom: 3%;
+    font-size: 16px;
+  }
+  
+  .info li {
+    padding-top: 3%;
+    padding-bottom: 3%;
+    font-size: 20px;
+  }
+  .info {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    padding: 8%;
+  }
+
+  .icon2 {
+    width: 5vw;
+    height: 5vh;
+    float: right;
+  }
+  
+  .arrows {
+    display: flex;
+    flex-direction: column;
+    padding: 5%;
+  }
+
+
+@media only screen and (max-width: 600px) {
+    
+}

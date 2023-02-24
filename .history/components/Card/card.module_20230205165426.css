@@ -1,0 +1,57 @@
+.x {
+    position: absolute;
+    font-size: 40px;
+}
+
+.butt {
+    background-color: transparent;
+    border: none;
+}
+
+.menubutton {
+    border: 3px solid white;
+    position: absolute;
+    
+}
+
+.menu {
+    position: absolute;
+    
+}
+
+.menu h3 {
+    font-size: 40px;
+}
+
+.background {
+    position: absolute;
+}
+
+/* Desktop */
+@media only screen and (min-width: 1000px) {
+    .menu {
+    top: 20%;
+    left: 40%;
+    }
+    .menubutton {
+    width: 40%;
+    height: 500px;
+    }
+    .x {
+    top: 10%;
+    left: 20%;
+    color: red;
+    }
+}
+
+/* Tablet or iPad Air */
+@media only screen and (min-width: 600px) and (max-width: 999px ) {
+    
+
+}
+
+/* Mobile or iPhone XR */
+@media only screen and (min-width: 300px) and (max-width: 599px ) {
+ 
+    
+    }

@@ -1,0 +1,157 @@
+.main {
+    background-image: url('../public/background-images/backgroundMountain.jpg');
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+  }
+
+  .nav {
+    padding: 4%;
+  }
+
+  .icon1 {
+    width: 5vw;
+    height: 5vh;
+    float: left;
+  }
+  
+  .icon2 {
+    width: 5vw;
+    height: 5vh;
+    float: right;
+  }
+  
+  .header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid white;
+    padding: 5%;
+  }
+  
+  .header h1 {
+    font-size: 50px;
+  }
+
+  .middle2 {
+    justify-content: center;
+    align-items: center;
+    border: 3px solid white;
+  }
+  
+  .middle2 p {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20%;
+    font-size: 20px;
+  }
+  
+  .inputs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid gray;
+  }
+  
+  .inputs thead {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    padding: 5%;
+    border: none;
+  }
+  
+  .inputs fieldset {
+    border: none;
+  }
+  
+  .inputs input {
+    width: 13rem;
+    background-color: white;
+    border: none;
+  }
+
+  .butt {
+    border: 3px solid white;
+    border-radius: 8%;
+    background-color: transparent;
+    width: 10vw;
+    height: 2.5vh;
+    max-width: 15vw;
+    max-height: 5vh;
+    font-size: 1.25vh;
+  }
+  
+  .butt:hover {
+    background-color: white;
+    color: black;
+  }
+
+  .icon3 {
+    width: 5vw;
+    height: 5vh;
+    float: right;
+  }
+  
+  .bottom {
+    position: absolute;
+    bottom: 10rem;
+    right: 5rem;
+  }
+
+/* Desktop */
+@media only screen and (min-width: 1000px) {
+    
+}
+
+
+/* Tablet or iPad Air */
+@media only screen and (min-width: 600px) and (max-width: 999px ) {
+    .inputs {
+      padding: 2%;
+    }
+    .icon1 {
+      width: 80px;
+      height: 80px;
+    }
+    .icon2 {
+      width: 80px;
+      height: 80px;
+    }
+    .header h1 {
+      font-size: 50px;
+    }
+}
+
+/* Mobile or iPhone XR */
+@media only screen and (max-width: 599px ) {
+    .header {
+      padding-top: 10%;
+    }
+    .inputs input {
+      width: 10rem;
+    }
+    .icon1 {
+      width: 50px;
+      height: 50px;
+    }
+    .icon2 {
+      width: 50px;
+      height: 50px;
+    }
+    .icon3 {
+      width: 40px;
+      height: 40px;
+    }
+    .bottom {
+      padding-top: 40%;
+      padding-left: 5%;
+    }
+    .middle2 {
+      padding-top: 15%;
+      padding-bottom: 1%;
+    }
+    
+    
+}

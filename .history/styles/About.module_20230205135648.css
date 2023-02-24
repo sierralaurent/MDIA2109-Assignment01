@@ -1,0 +1,102 @@
+.mainABOUT {
+    background-color: #14343d;
+  }
+
+  .nav {
+    padding: 4%;
+  }
+
+  .icon1 {
+    width: 5vw;
+    height: 5vh;
+    float: left;
+  }
+  
+  .icon2 {
+    width: 5vw;
+    height: 5vh;
+    float: right;
+  }
+  
+  .About {
+    display: flex;
+    justify-content: center;
+    padding-top: 5%;
+    font-size: 30px;
+  }
+  
+  .infodiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+  }
+
+  .info p {
+    padding-top: 3%;
+    padding-bottom: 3%;
+    font-size: 19px;
+  }
+  
+  .info li {
+    padding-top: 3%;
+    padding-bottom: 3%;
+    font-size: 20px;
+  }
+  .info {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    padding: 8%;
+  }
+  
+  .arrows {
+    display: flex;
+    flex-direction: row;
+    gap: 90%;
+    padding: 5%;
+  }
+
+  .arrowsbottom {
+    display: flex;
+    justify-content: right;
+   
+    flex-direction: row;
+    padding-bottom: 15%;
+  }
+  .icon3 {
+    width: 5vw;
+    height: 5vh;
+  }
+
+
+/* Desktop */
+@media only screen and (min-width: 1000px) {
+    
+}
+
+
+/* Tablet or iPad Air */
+@media only screen and (min-width: 600px) and (max-width: 999px ) {
+    
+.infodiv {
+  padding: 15%;
+}
+
+}
+
+/* Mobile or iPhone XR */
+@media only screen and (min-width: 300px) and (max-width: 599px ) {
+    
+.infodiv {
+  padding: 20%;
+}
+
+.About {
+  padding-top: 15%;
+}
+
+.info p {
+  padding: 10%;
+}
+
+}

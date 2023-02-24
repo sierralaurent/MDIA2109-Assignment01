@@ -1,0 +1,32 @@
+.x {
+    position: absolute;
+    top: 40%;
+    left: 20%;
+    color: red;
+}
+
+.butt {
+    background-color: transparent;
+    border: none;
+}
+
+.menubutton {
+    border: 3px solid white;
+    position: absolute;
+    width: 40%;
+    height: 500px;
+}
+
+.menu {
+    position: absolute;
+    top: 10%;
+    left: 2%;
+}
+
+.menu h3 {
+    font-size: 22px;
+}
+
+.background {
+    position: absolute;
+}

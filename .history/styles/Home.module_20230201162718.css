@@ -1,0 +1,66 @@
+.carouselImage {
+  height: 200px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 40px 0px;
+}
+.main {
+  background-image: url('../public/background-images/backgroundMountain.jpg');
+  background-size: cover;
+  height: 100vh;
+}
+
+.intro {
+  position: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.buttons {
+  position: flex;
+  justify-content: center;
+  align-items: center;
+}
+.butt {
+  border: 3px solid white;
+  border-radius: 8%;
+  background-color: transparent;
+  width: 10vw;
+  height: 2.5vh;
+  font-size: 5vh;
+}
+
+.hr {
+ 
+}
+
+.middle {
+  position: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon1 {
+  width: 5vw;
+  height: 5vh;
+  float: left;
+}
+.icon2 {
+  width: 5vw;
+  height: 5vh;
+  float: right;
+}
+.icon3 {
+  width: 5vw;
+  height: 5vh;
+  float: right;
+  padding: 50%;
+  padding-right: 10%;
+}
+
+.nav {
+  padding: 4%;
+}

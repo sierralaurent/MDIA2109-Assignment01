@@ -1,0 +1,157 @@
+.main {
+  background-image: url('../public/background-images/backgroundMountain.jpg');
+  background-size: cover;
+  height: 100vh;
+}
+
+.nav {
+  padding: 4%;
+}
+
+.buttons {
+  padding: 5%;
+  bottom: 6rem;
+  left: 1rem;
+}
+
+.butt {
+  border: 3px solid white;
+  border-radius: 8%;
+  background-color: transparent;
+  font-size: 25px;
+  width: fit-content;
+  padding: 1%;
+  
+}
+
+.butt:hover {
+  background-color: white;
+  color: black;
+}
+
+.intro {
+  display: flex;
+  justify-content: left;
+  flex-direction: row;
+  border: 3px solid white;
+
+}
+
+.intro2 {
+  display: flex;
+  justify-content: left;
+  flex-direction: row;
+  border: 3px solid white;
+  font-size: 25px;
+  padding: 5%;
+}
+
+.intro h1 { 
+  font-size: 50px;
+  padding: 5%;
+  flex-direction: row;
+}
+.intro p {
+  font-size: 30px;
+  padding: 5%;
+  flex-direction: row;
+}
+
+.middle {
+  border: 3px solid white;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: left;
+  padding-top: 30%;
+  padding-right: 30%;
+}
+
+.icon1 {
+  width: 100px;
+  height: 100px;
+  float: left;
+}
+
+.icon2 {
+  width: 100px;
+  height: 100px;
+  float: right;
+}
+
+.icon3 {
+  width: 5vw;
+  height: 5vh;
+  float: right;
+}
+
+.bottom {
+  border: 3px solid white;
+  padding: 4%;
+}
+
+/* Desktop */
+@media only screen and (min-width: 1000px) {
+    .intro {
+      max-width: 600px;
+    }
+    .intro2 {
+      max-width: 600px;
+    }
+}
+
+
+/* Tablet or iPad Air */
+@media only screen and (min-width: 600px) and (max-width: 999px ) {
+    .intro {
+      max-width: 800px;
+    }
+    .middle {
+      padding-right: 10%;
+    }
+    .intro h1 {
+      font-size: 35px;
+    }
+    .intro2 p {
+      font-size: 20px;
+    }
+    .butt {
+      font-size: 20px;
+    }
+    .icon1 {
+      width: 80px;
+      height: 80px;
+    }
+    .icon2 {
+      width: 80px;
+      height: 80px;
+    }
+}
+
+/* Mobile or iPhone XR */
+@media only screen and (max-width: 599px ) {
+  .intro {
+    max-width: 800px;
+  }
+  .middle {
+    padding-right: 10%;
+  }
+  .intro h1 {
+    font-size: 28px;
+  }
+  .intro2 p {
+    font-size: 18px;
+  }
+  .butt {
+    font-size: 18px
+  }
+  .icon1 {
+    width: 50px;
+    height: 50px;
+  }
+  .icon2 {
+    width: 50px;
+    height: 50px;
+  }
+}
+

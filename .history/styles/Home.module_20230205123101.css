@@ -1,0 +1,92 @@
+.main {
+  background-image: url('../public/background-images/backgroundMountain.jpg');
+  background-size: cover;
+  height: 100vh;
+}
+
+.nav {
+  padding: 4%;
+}
+
+.intro {
+  display: flex;
+  justify-content: left;
+
+}
+
+.buttons {
+
+  bottom: 6rem;
+  left: 1rem;
+}
+
+.butt {
+  border: 3px solid white;
+  border-radius: 8%;
+  background-color: transparent;
+  width: 10vw;
+  height: 2.5vh;
+  max-width: 15vw;
+  max-height: 5vh;
+  font-size: 1.25vh;
+  
+}
+
+.butt:hover {
+  background-color: white;
+  color: black;
+}
+
+.intro h1 { 
+  font-size: 50px;
+  padding: 2%;
+}
+.intro p {
+  font-size: 22px;
+  padding: 2%;
+}
+
+.middle {
+  border: 3px solid white;
+}
+
+.icon1 {
+  width: 5vw;
+  height: 5vh;
+  float: left;
+}
+
+.icon2 {
+  width: 5vw;
+  height: 5vh;
+  float: right;
+}
+
+.icon3 {
+  width: 5vw;
+  height: 5vh;
+  float: right;
+}
+
+.bottom {
+  
+  bottom: 10rem;
+  right: 5rem;
+}
+
+/* Desktop */
+@media only screen and (min-width: 1000px) {
+    
+}
+
+
+/* Tablet or iPad Air */
+@media only screen and (min-width: 600px) and (max-width: 999px ) {
+    
+}
+
+/* Mobile or iPhone XR */
+@media only screen and (max-width: 599px ) {
+    
+}
+

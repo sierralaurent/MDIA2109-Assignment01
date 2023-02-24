@@ -1,0 +1,13 @@
+.carouselImage {
+  height: 200px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 40px 0px;
+}
+.main {
+  background-image: url('../public/background-images/backgroundMountain.jpg');
+  background-size: cover;
+}
